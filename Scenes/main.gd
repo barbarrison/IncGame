@@ -31,7 +31,7 @@ func _on_output_upgrade_pressed() -> void:
 	if iron >= output_cost:
 		iron -= output_cost
 		iron_output += 1
-		output_cost = output_cost*2
+		output_cost += 1
 		updateText()
 
 func _on_speed_upgrade_pressed() -> void:
