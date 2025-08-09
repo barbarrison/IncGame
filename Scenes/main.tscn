@@ -1,0 +1,193 @@
+[gd_scene load_steps=37 format=3 uid="uid://drsks2580323h"]
+
+[ext_resource type="Texture2D" uid="uid://cnb26po3xeh08" path="res://Assets/MineAnim2.png" id="1_7k868"]
+[ext_resource type="Script" uid="uid://c01i40oujl6t2" path="res://Scenes/main.gd" id="1_hpc6h"]
+[ext_resource type="Texture2D" uid="uid://ct8b4nct3x3xu" path="res://Assets/MineAnim3.png" id="2_hpc6h"]
+[ext_resource type="Texture2D" uid="uid://carvbm2fohg3u" path="res://Assets/MineAnim4.png" id="3_kltya"]
+[ext_resource type="Texture2D" uid="uid://dqpgdsslo808j" path="res://Assets/MineAnim5.png" id="4_e08e2"]
+[ext_resource type="Texture2D" uid="uid://c8hgip3yrl8vq" path="res://Assets/MineAnim6.png" id="5_neg2b"]
+[ext_resource type="Texture2D" uid="uid://c5gl337tufin4" path="res://Assets/MineAnim7.png" id="6_r33sp"]
+[ext_resource type="Texture2D" uid="uid://crggu0qbdbdfs" path="res://Assets/MineAnim8.png" id="7_hdf80"]
+[ext_resource type="Texture2D" uid="uid://cyqjf0mjes8k5" path="res://Assets/MineAnim9.png" id="8_jwpg7"]
+[ext_resource type="Texture2D" uid="uid://bvgc02dx17p1p" path="res://Assets/MineAnim10.png" id="9_k2e45"]
+[ext_resource type="Texture2D" uid="uid://divbi6qgwd4wk" path="res://Assets/MineAnim11.png" id="10_536cc"]
+[ext_resource type="Texture2D" uid="uid://wr21nehjlq0p" path="res://Assets/MineAnim12.png" id="11_aqgau"]
+[ext_resource type="Texture2D" uid="uid://dtw0nw1shj8er" path="res://Assets/MineAnim13.png" id="12_8cuat"]
+[ext_resource type="Texture2D" uid="uid://n2uumd5d0ew5" path="res://Assets/MineAnim14.png" id="13_o1aky"]
+[ext_resource type="Texture2D" uid="uid://cwocjr0h1prci" path="res://Assets/MineAnim15.png" id="14_kwxat"]
+[ext_resource type="Texture2D" uid="uid://c1wdocl6kcxx2" path="res://Assets/MineAnim16.png" id="15_aa8k8"]
+[ext_resource type="Texture2D" uid="uid://b5oyamygm67bh" path="res://Assets/MineAnim17.png" id="16_kqrg6"]
+[ext_resource type="Texture2D" uid="uid://dvvnd1yd1vbpa" path="res://Assets/MineAnim18.png" id="17_nwwfm"]
+[ext_resource type="Texture2D" uid="uid://bgbhfohnuqhso" path="res://Assets/MineAnim19.png" id="18_s8vy0"]
+[ext_resource type="Texture2D" uid="uid://cch2meg266a7u" path="res://Assets/MineAnim20.png" id="19_jut3y"]
+[ext_resource type="Texture2D" uid="uid://c76lm2clr0kvc" path="res://Assets/MineAnim21.png" id="20_v2nl5"]
+[ext_resource type="Texture2D" uid="uid://dn5aqyfaxr3h" path="res://Assets/MineAnim22.png" id="21_dmskm"]
+[ext_resource type="Texture2D" uid="uid://ciygm6kv0n4by" path="res://Assets/MineAnim23.png" id="22_xdkp6"]
+[ext_resource type="Texture2D" uid="uid://cu2lan3vk0c06" path="res://Assets/MineAnim24.png" id="23_54nrm"]
+[ext_resource type="Texture2D" uid="uid://bobsyirm2rmy0" path="res://Assets/MineAnim25.png" id="24_55jeb"]
+[ext_resource type="Texture2D" uid="uid://2le4oe4usway" path="res://Assets/MineAnim26.png" id="25_gsvbx"]
+[ext_resource type="Texture2D" uid="uid://bxsauhtvfvmh0" path="res://Assets/MineAnim27.png" id="26_bv80c"]
+[ext_resource type="Texture2D" uid="uid://ea24h1a0t6js" path="res://Assets/MineAnim28.png" id="27_ptfg5"]
+[ext_resource type="Texture2D" uid="uid://dsjvissacwtqn" path="res://Assets/MineAnim29.png" id="28_2daye"]
+[ext_resource type="Texture2D" uid="uid://onebfla3n58s" path="res://Assets/MineAnim30.png" id="29_1semv"]
+[ext_resource type="Texture2D" uid="uid://cpgqi0yfl2p6k" path="res://Assets/MineAnim31.png" id="30_2060n"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hpc6h"]
+bg_color = Color(0.712351, 0.578221, 0.337888, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kltya"]
+bg_color = Color(0.713726, 0.576471, 0.337255, 1)
+
+[sub_resource type="Animation" id="Animation_6ml46"]
+resource_name = "Mine"
+length = 3.0
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/PanelContainer/MarginContainer/PlayArea/MineSpace/MiningMarginContainer/MiningVBox/IronMining:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2, 2.1, 2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.7001, 2.8, 2.8001, 2.8002, 2.9, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_7k868"), ExtResource("2_hpc6h"), ExtResource("3_kltya"), ExtResource("4_e08e2"), ExtResource("5_neg2b"), ExtResource("6_r33sp"), ExtResource("7_hdf80"), ExtResource("8_jwpg7"), ExtResource("9_k2e45"), ExtResource("10_536cc"), ExtResource("11_aqgau"), ExtResource("12_8cuat"), ExtResource("13_o1aky"), ExtResource("14_kwxat"), ExtResource("15_aa8k8"), ExtResource("16_kqrg6"), ExtResource("17_nwwfm"), ExtResource("18_s8vy0"), ExtResource("19_jut3y"), ExtResource("20_v2nl5"), ExtResource("21_dmskm"), ExtResource("22_xdkp6"), ExtResource("23_54nrm"), ExtResource("24_55jeb"), ExtResource("25_gsvbx"), ExtResource("26_bv80c"), ExtResource("27_ptfg5"), ExtResource("28_2daye"), ExtResource("28_2daye"), ExtResource("1_7k868"), ExtResource("1_7k868"), ExtResource("29_1semv"), ExtResource("30_2060n"), ExtResource("1_7k868")]
+}
+
+[sub_resource type="Animation" id="Animation_qax2n"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/PanelContainer/MarginContainer/PlayArea/MineSpace/MiningMarginContainer/MiningVBox/IronMining:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_7k868")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y86h7"]
+_data = {
+&"Mine": SubResource("Animation_6ml46"),
+&"RESET": SubResource("Animation_qax2n")
+}
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hpc6h")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 100
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="PlayArea" type="HBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="MineSpace" type="PanelContainer" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_hpc6h")
+
+[node name="MiningMarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/MineSpace"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="MiningVBox" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/MineSpace/MiningMarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="IronLabel" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/MineSpace/MiningMarginContainer/MiningVBox"]
+layout_mode = 2
+text = "Iron: 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="IronMining" type="TextureRect" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/MineSpace/MiningMarginContainer/MiningVBox"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+texture = ExtResource("1_7k868")
+expand_mode = 2
+stretch_mode = 4
+
+[node name="MineButton" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/MineSpace/MiningMarginContainer/MiningVBox"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "MINE FOR IRON
+"
+
+[node name="Upgrades" type="PanelContainer" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_kltya")
+
+[node name="UpgradeMarginContainer" type="MarginContainer" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/Upgrades"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="UpgradeVBox" type="VBoxContainer" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/Upgrades/UpgradeMarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="UpgradeLabel" type="Label" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/Upgrades/UpgradeMarginContainer/UpgradeVBox"]
+layout_mode = 2
+text = "Upgrades"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SpeedUpgrade" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/Upgrades/UpgradeMarginContainer/UpgradeVBox"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Speed Upgrade
+"
+
+[node name="OutputUpgrade" type="Button" parent="MarginContainer/PanelContainer/MarginContainer/PlayArea/Upgrades/UpgradeMarginContainer/UpgradeVBox"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Output Upgrade
+"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_y86h7")
+}
+
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/PlayArea/MineSpace/MiningMarginContainer/MiningVBox/MineButton" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/PlayArea/Upgrades/UpgradeMarginContainer/UpgradeVBox/SpeedUpgrade" to="." method="_on_speed_upgrade_pressed"]
+[connection signal="pressed" from="MarginContainer/PanelContainer/MarginContainer/PlayArea/Upgrades/UpgradeMarginContainer/UpgradeVBox/OutputUpgrade" to="." method="_on_output_upgrade_pressed"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]
